@@ -169,9 +169,11 @@ section.primeira-secao > h4, h5 {
 
 section.segunda-secao {
     background-color: var(--cor05);
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: -15px;
-    margin-right: -15px;
+    margin-right: -14.5px;
+    margin-bottom: -45px;
 }
 
 section.segunda-secao > article > h5.outro {
@@ -218,6 +220,6 @@ footer {
     background-color: gray;
     color: white;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 3px;
     padding: 16px;
 }
