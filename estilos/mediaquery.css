@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/*
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+*/
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-image: url(../imagens/lei03.jpg);
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    main {
+        max-width: 460px;
+    }
+
+    header > section > nav {
+        display: flex;
+        justify-content: center;
+    }
+}

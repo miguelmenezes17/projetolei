@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display =trocar');
+
+/* TIPICAL DEVICE BREAKPOINTS - Sempre pesquisar sobre, antes da fazer um site.
+PARA MEDIA QUERIES
+--------------------------
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --cor01: #e7d7bfa4;
+    --cor02: #e7b05dd3;
+    --cor03: #a18a5ab6;
+    --cor04: #aeaeae;
+    --cor05: #e4b55dc5;
+    --cor06: #656464;
+    --cor07: green;
+    --cor08: #ffffff15;
+
+}
+
+body {
+    background-image: url(../imagens/lei02-300x450.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(70%);
+    filter: opacity(80%);
+}
+
+header {
+    background-color: var(--cor02);
+    margin: auto 8px 20px 8px;
+    border-radius: 12px;
+}
+
+header > section > nav {
+    background-color: var(--cor08);
+    display: flex;
+    justify-content: right;
+    border-radius: 12px;
+
+}
+
+header > section > nav > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 7px;
+    height: 19px;
+}
+
+header > section > nav > li > a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    margin: 4px;
+    padding: 7px;
+    border-radius: 8px;
+}
+
+header > section > nav > li > a:hover {
+    color: black;
+    transition-duration: 0.8s;
+    background-color: var(--cor03);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
+    padding-bottom: 6px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 14.5px;
+    max-width: 390px;
+}
+
+h1 {
+    text-align: end;
+    margin: 15px;
+    padding: 12px;
+    font-family: "Sedan SC", serif;
+
+}
+
+p {
+    text-align: justify;
+    text-indent: 10px;
+}
+
+div.image-lei {
+    background: #aeaeae;
+    display: block;
+    height: 360px;
+    border-bottom: 1px solid black;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    /* CONFIGURAÇÃO DA DIV
+    TENTATIVA DE ENCAIXAR IMAGEM DENTRO DE DIV
+    */
+}
+
+div.image-lei > img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* CONFIGURAÇÃO DA IMAGEM
+    TENTATIVA DE ENCAIXAR IMAGEM DENTRO DE DIV
+    */
+}
+
+section.primeira-secao {
+    background-color: var(--cor06);
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -15px;
+}
+
+section.primeira-secao > h2 {
+    color: rgb(228, 198, 117);
+    text-decoration: overline solid black;
+    font-family: "Cormorant Garamond", serif;
+    text-align: end;
+    margin: 30px;
+    padding: 8px;
+}
+
+section.primeira-secao > h3 {
+    color: white;
+    padding: 10px;
+
+}
+
+section.primeira-secao p {
+    color: rgba(231, 231, 231, 0.945);
+    text-align: justify;
+    text-indent: 10px;
+}
+
+section.primeira-secao > h4, h5 {
+    color: rgb(255, 246, 118);
+    font-weight: bolder;
+    margin: 14px;
+    padding: 10px;
+}
+
+section.segunda-secao {
+    background-color: var(--cor05);
+    padding: 10px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+section.segunda-secao > article > h5.outro {
+    color: black;
+    margin: 8px;
+}
+
+section.segunda-secao p {
+    color: black;
+    padding: 16px;
+    text-indent: 10px;
+}
+
+section.segunda-secao ul {
+    background-color: rgba(201, 175, 105, 0.575);
+    color: rgb(41, 41, 41);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 19px;
+    font-weight: 400;
+}
+
+article.lista {
+    background-color: var(--cor06);
+    margin-bottom: 30px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 800px;
+}
+
+article.lista p {
+    margin: 15px;
+    color: wheat;
+}
+
+article.lista ol, li {
+    list-style-type: none;
+    margin: 18px;
+    font-size: 1em;
+    color: wheat;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 16px;
+}
