@@ -29,4 +29,34 @@ Grandes Telas: Acima de 1200px;
         display: flex;
         justify-content: center;
     }
+
+    div.image-lei {
+        background: #aeaeae;
+        display: block;
+        height: 390px;
+        width: 350px;
+        border-bottom: 1px solid black;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    
+        /* CONFIGURAÇÃO DA DIV
+        TENTATIVA DE ENCAIXAR IMAGEM DENTRO DE DIV
+        */
+    }
+    
+    div.image-lei > img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        /* CONFIGURAÇÃO DA IMAGEM
+        TENTATIVA DE ENCAIXAR IMAGEM DENTRO DE DIV
+        */
+    }
 }
