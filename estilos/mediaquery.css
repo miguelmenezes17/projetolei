@@ -60,3 +60,15 @@ Grandes Telas: Acima de 1200px;
         */
     }
 }
+
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 600px;
+    }
+
+    header {
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
