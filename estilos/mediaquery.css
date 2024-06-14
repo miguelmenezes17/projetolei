@@ -71,4 +71,8 @@ Grandes Telas: Acima de 1200px;
         margin-left: auto;
         margin-right: auto;
     }
+
+    section.segunda-secao ul {
+        margin-right: 90px;
+    }
 }
