@@ -66,6 +66,14 @@ Grandes Telas: Acima de 1200px;
         max-width: 600px;
     }
 
+    body {
+        background-image: url(../imagens/lei-background.jpg);
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
     header {
         max-width: 700px;
         margin-left: auto;

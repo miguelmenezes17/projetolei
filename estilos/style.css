@@ -89,6 +89,8 @@ main {
     margin: auto;
     padding: 14.5px;
     max-width: 390px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 h1 {
@@ -141,6 +143,7 @@ section.primeira-secao {
     margin-right: -15px;
     margin-top: -15px;
     margin-bottom: -8px;
+    border-top-left-radius: 12px;
 }
 
 section.primeira-secao > h2 {
@@ -178,6 +181,8 @@ section.segunda-secao {
     margin-left: -15px;
     margin-right: -14.5px;
     margin-bottom: -45px;
+    border-bottom-right-radius: 13px;
+    
 }
 
 section.segunda-secao > article > h5.outro {
@@ -206,6 +211,7 @@ article.lista {
     margin-left: -10px;
     margin-right: -10px;
     height: 700px;
+    border-bottom-right-radius: 9px;
 }
 
 article.lista p {
@@ -224,6 +230,11 @@ footer {
     background-color: gray;
     color: white;
     text-align: center;
-    margin-top: 3px;
+    margin: auto;
     padding: 16px;
+}
+
+footer p {
+    margin: auto;
+    text-align: center;
 }
