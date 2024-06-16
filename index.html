@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LEI Nº 8.112</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <section>
-            <h1>LEI Nº 8.112</h1>
-            <nav>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Leis</a></li>
-            </nav>
+            <h1><a href="https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-publicacaooriginal-1-pl.html" target="_blank">LEI Nº 8.112</a></h1>
+            <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">Menu</span>
+                <menu id="itens">
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#">Leis</a></li>
+                </menu>
         </section>
     </header>
     <main>
         <section class="primeira-secao">
-            <h2>LEI Nº 8.112, DE 11 DE DEZEMBRO DE 1990</h2>
+            <h2><a href="https://www2.camara.leg.br/legin/fed/lei/1990/lei-8112-11-dezembro-1990-322161-publicacaooriginal-1-pl.html">LEI Nº 8.112</a>, DE 11 DE DEZEMBRO DE 1990</h2>
             <h3>O PRESIDENTE DA REPÚBLICA;</h3>
             <p>Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte lei:</p>
             <h4>TÍTULO II</h4>
@@ -42,7 +44,7 @@
                 <ol>III. a quitação com as obrigações militares e eleitorais;</ol>
                 <ol>IV. o nível de escolaridade exigido para o exercício do cargo;</ol>
                 <ol>V. a idade mínima de dezoito anos;</ol>
-                <ol>VI. aptidão física e mental.ível do músculo cardíaco.</ol>
+                <ol>VI. aptidão física e mental. Nível do músculo cardíaco.</ol>
             </ul>
         </article>
         <article>
@@ -74,7 +76,26 @@
         </section>
     </main>
     <footer>
-        <p>Direitos de criação do site, reservados à Miguel Angell</p>
+        <p>Créditos de desenvolvimento reservados à Miguel Angell</p>
     </footer>
+    <script>
+        function mudouTamanho() {
+            if (window.inner.Width >= 768) {
+                itens.style.display = 'block'
+            }
+
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

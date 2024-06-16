@@ -59,6 +59,31 @@ Grandes Telas: Acima de 1200px;
         TENTATIVA DE ENCAIXAR IMAGEM DENTRO DE DIV
         */
     }
+
+    section.primeira-secao {
+        background-color: rgb(0, 0, 0);
+    }
+
+    section.segunda-secao {
+        background-color: rgba(77, 66, 50, 0.788);
+    }
+
+    section.segunda-secao > article > h5.outro {
+        color: white;
+    }
+
+    section.segunda-secao p {
+        color: white;
+    }
+
+    section.segunda-secao ul {
+        background-color: rgba(218, 197, 158, 0.705);
+    }
+
+    article.lista {
+        background-color: black;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -78,9 +103,19 @@ Grandes Telas: Acima de 1200px;
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
+        background-color: #BF702A;
     }
 
+    section.primeira-secao {
+        background-color: #0D0D0D;
+    }
+
+    section.segunda-secao {
+        background-color: rgb(122, 122, 122);
+    }
+    
     section.segunda-secao ul {
         margin-right: 90px;
+        background-color: #e7e7e775;
     }
 }

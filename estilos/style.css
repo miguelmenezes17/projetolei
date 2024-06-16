@@ -53,7 +53,7 @@ header {
     border-radius: 12px;
 }
 
-header > section > nav {
+header > section > menu {
     background-color: var(--cor08);
     display: flex;
     justify-content: right;
@@ -61,14 +61,14 @@ header > section > nav {
 
 }
 
-header > section > nav > li {
+header > section > menu > li {
     list-style-type: none;
     display: inline-block;
     margin: 7px;
     height: 19px;
 }
 
-header > section > nav > li > a {
+header > section > menu > li > a {
     text-decoration: none;
     color: rgb(255, 255, 255); 
     margin: 4px;
@@ -76,11 +76,10 @@ header > section > nav > li > a {
     border-radius: 8px;
 }
 
-header > section > nav > li > a:hover {
+header > section > menu > li > a:hover {
     color: black;
     transition-duration: 0.8s;
-    background-color: var(--cor03);
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.637);
+    box-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.637);
     padding-bottom: 6px;
 }
 
@@ -98,7 +97,11 @@ h1 {
     margin: 15px;
     padding: 12px;
     font-family: "Sedan SC", serif;
+}
 
+h1 > a {
+    color: white;
+    text-decoration: none;
 }
 
 p {
@@ -147,12 +150,26 @@ section.primeira-secao {
 }
 
 section.primeira-secao > h2 {
-    color: rgb(228, 198, 117);
+    color: #e4c675;
     text-decoration: overline solid black;
     font-family: "Cormorant Garamond", serif;
     text-align: end;
     margin: 30px;
     padding: 8px;
+}
+
+section.primeira-secao > h2 > a {
+    color: #e4c675;
+    text-decoration: none;
+}
+
+section.primeira-secao > h2 > a:hover {
+    color: white;
+    text-decoration: 1px solid underline;
+}
+
+section.primeira-secao > h2 > a:active {
+    color: blue;
 }
 
 section.primeira-secao > h3 {
@@ -223,7 +240,7 @@ article.lista ol, li {
     list-style-type: none;
     margin: 18px;
     font-size: 1em;
-    color: wheat;
+    color: rgb(0, 0, 0);
 }
 
 footer {
