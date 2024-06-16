@@ -84,6 +84,12 @@ Grandes Telas: Acima de 1200px;
         background-color: black;
     }
 
+    span#burguer {
+        
+        position: relative;
+        left: 46%;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -117,5 +123,15 @@ Grandes Telas: Acima de 1200px;
     section.segunda-secao ul {
         margin-right: 90px;
         background-color: #e7e7e775;
+    }
+
+    span#burguer {
+        position: relative;
+        left: 47%;
+        background-color: #a3571983;
+        color: white;
+        border-radius: 18px;
+        padding: 4px;
+
     }
 }

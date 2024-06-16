@@ -55,7 +55,6 @@ header {
 
 header > section > menu {
     background-color: var(--cor08);
-    display: flex;
     justify-content: right;
     border-radius: 12px;
 
@@ -63,7 +62,6 @@ header > section > menu {
 
 header > section > menu > li {
     list-style-type: none;
-    display: inline-block;
     margin: 7px;
     height: 19px;
 }
@@ -74,6 +72,9 @@ header > section > menu > li > a {
     margin: 4px;
     padding: 7px;
     border-radius: 8px;
+
+    display: inline-flex;
+
 }
 
 header > section > menu > li > a:hover {
@@ -82,6 +83,19 @@ header > section > menu > li > a:hover {
     box-shadow: 1px 0.5px 1px rgba(0, 0, 0, 0.637);
     padding-bottom: 6px;
 }
+
+span#burguer {
+    position: relative;
+    left: 20px;
+    bottom: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+menu#itens {
+    height: 180px;
+}
+
 
 main {
     background-color: white;
